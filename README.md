@@ -110,23 +110,29 @@ http://localhost:5173
 ---
 
 ## Struktur Project
+
+\```
 removebg-app/
 ├── backend/
 │   ├── main.py
 │   └── requirements.txt
+│
 └── frontend/
-├── src/
-│   ├── components/
-│   │   ├── BgSwatches.jsx
-│   │   ├── ModelSelector.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── PreviewPanel.jsx
-│   │   └── UploadZone.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .env
-└── package.json
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── BgSwatches.jsx
+    │   │   ├── ModelSelector.jsx
+    │   │   ├── Navbar.jsx
+    │   │   ├── PreviewPanel.jsx
+    │   │   └── UploadZone.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── .env
+    ├── tailwind.config.js
+    └── package.json
+\```
 
 ---
 
