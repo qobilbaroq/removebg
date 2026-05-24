@@ -111,7 +111,7 @@ http://localhost:5173
 
 ## Struktur Project
 
-\```
+```
 removebg-app/
 ├── backend/
 │   ├── main.py
@@ -132,7 +132,7 @@ removebg-app/
     ├── .env
     ├── tailwind.config.js
     └── package.json
-\```
+```
 
 ---
 
